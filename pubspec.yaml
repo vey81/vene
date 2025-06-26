@@ -1,0 +1,35 @@
+name: vene
+description: Dein OBD Dashboard Projekt
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.1.2
+  flutter_svg: ^1.1.6
+  sensors_plus: ^4.0.2
+  path_provider: ^2.1.1
+  shared_preferences: ^2.2.2
+  google_maps_flutter: ^2.5.0    # ✅ Google Maps
+  geolocator: ^10.1.0            # ✅ Geolokation
+  location: ^5.0.3               # ✅ Alternative Location-Provider
+  go_router: ^12.1.1
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/dashboard.svg
+    - assets/images/bike_freigestellt.png
